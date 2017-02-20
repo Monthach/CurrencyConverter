@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'intro_condblack_free';
+    src: url('../font/intro_cond_black_free-webfont.woff2') format('woff2'),
+         url('../font/intro_cond_black_free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'intro_condlight_free';
+    src: url('../font/intro_cond_light_free-webfont.woff2') format('woff2'),
+         url('../font/intro_cond_light_free-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'microsoft_yi_baitiregular';
+    src: url('../font/msyi-webfont.woff2') format('woff2'),
+         url('../font/msyi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background: #eae9e7;
+    font-family: 'intro_condblack_free';
+    font-size: 20px;
+}
+.conteiner{
+  	padding: 8% 0 0;
+  	margin: auto;
+    text-align: center;
+}
+.box{
+    background-color: #fff;
+  	max-width: 600px;
+  	margin: 0 auto 0px;
+  	padding: 40px;
+    color: #ee393e;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.2);   
+}
+
+.box input,.box select{
+  	outline: none;
+  	width: 50%;
+  	margin: 0 0 15px;
+  	padding: 15px;
+  	border: 2px solid #fff;
+    border-radius: 5px;
+	  box-sizing: border-box;
+  	font-size: 20px;
+    font-family: 'microsoft_yi_baitiregular';
+    background-color: #eae9e7;
+
+}
+.box input:focus,.box select:focus{
+    border: 2px solid #ee393e;
+}
+option:focus{
+    background-color: #eae9e7;
+}
+.box button, .box-01 button {
+  /*  background: #fe7376;*/
+    background-color: #ee393e;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: 'intro_condlight_free';
+}
+.box button:hover,.box button:active,.box button:focus {
+    background: #e3282d;
+}
+
+.box-01{
+    max-width: 600px;
+    margin: 0 auto 0px;
+    font-size: 20px;
+    color: #1d1045;
+    font-family: 'microsoft_yi_baitiregular';
+}
+.box-01 h2{
+    color: #ee393e;
+    font-family: 'quarkboldintro_condblack_free';
+}
+
+
